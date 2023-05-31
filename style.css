@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "montserrat", "sans serif";
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+main{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    margin-right: 36%;
+    padding-bottom: 30px;
+    border: 1px solid grey;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(238, 184, 48);
+}
+
+header{
+    text-align: center;
+    color: rgb(13, 13, 13);
+}
+
+#title{
+    font-size: 30px;
+}
+
+#description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#survey-form{
+    /*border: 1px solid red;*/
+    width: 100%;
+    /*margin-top: 60px;*/
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border: 1px solid grey;*/
+}
+
+.form-group{
+    /*border: 1px solid rgb(13, 255, 0);
+    margin: 0 auto;*/
+    
+    /*padding-left: 40%;
+    padding-right: 40%;*/
+    margin: 15px;
+    gap: 2;
+    /*display: flex;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.role{
+    display: flex;
+}
+
+input{
+    margin-top: 5px;
+    /*border: 1px solid red;*/
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+select{
+    padding-right: 10px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 400;
+    /*background-color: red;*/
+    margin-bottom: 1px;
+}
+
+.select-role, .remark{
+    margin-bottom: 6px;
+}
+
+.radio-group{
+    /*border: 1px solid orangered;*/
+    background-color: burlywood;
+    display: flex;
+}
+[type="radio"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.checkbox-group{
+    /*border: 1px solid orangered;*/
+    background-color: burlywood;
+    display: flex;
+}
+[type="checkbox"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+textarea{
+    background-color: rgb(216, 108, 108);
+    /*border: 1px solid orangered;*/
+    height: 150px;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    border: none;
+    color: rgb(7, 0, 0);
+}
+
+#submit{
+    padding-top: 1px solid;
+    height: 50px;
+    border: 1px solid orangered;
+    /*border-radius: 6px;*/
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(58, 58, 58);
+}
